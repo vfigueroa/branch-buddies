@@ -1,0 +1,19 @@
+$purple-accent-color: #b100cd;
+$orange-accent-color: #ff6600;
+//$cyan-accent-color: #48abe0;
+$background-color: white;
+
+body {
+    background-color: $background-color;
+}
+
+.header h1 {
+    background-image: -webkit-linear-gradient(0deg, $purple-accent-color 0%, $orange-accent-color 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 200px;
+    margin: 10px;
+}
